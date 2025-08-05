@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title') - Hi! French</title>
     <link rel="icon" href="{{ asset('assets/images/favicon.jpg') }}" type="image/x-icon">
+        <meta name="description" content="@yield('meta_description', 'Learn languages the smart way with our courses.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'French course, Swahili course, language learning, online lessons')">
+    <meta name="author" content="Koverae">
+
+    {{-- CSRF Token --}}
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    {{-- Open Graph (for Facebook, LinkedIn, etc.) --}}
+    <meta property="og:title" content="@yield('og:title', config('app.name'))">
+    <meta property="og:description" content="@yield('og:description', 'Join our language learning platform.')">
+    <meta property="og:image" content="@yield('og:image', asset('assets/images/favicon.jpg'))">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:type" content="website">
+
+    {{-- Twitter Card --}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="@yield('twitter:title', config('app.name'))">
+    <meta name="twitter:description" content="@yield('twitter:description', 'Start mastering a new language today.')">
+    <meta name="twitter:image" content="@yield('twitter:image', asset('assets/images/favicon.jpg'))">
+
+    {{-- Extra page-specific tags --}}
+    @stack('meta')
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
@@ -58,10 +81,10 @@
             <div class="md:flex md:justify-between">
                 <div class="mb-6 md:mb-0 md:w-1/4">
                     <a href="#" class="">
-                        <img src="{{ asset('assets/images/logo.png')}}" class="h-[65px]" alt="Hi-French Logo" />
+                        <img src="{{ asset('assets/images/logo.png')}}" class="h-[65px]" alt="Hi! French Logo" />
                     </a>
                     <p class="p-3 text-gray-600 text-md">
-                        <strong>Hi-French</strong> is an online platform where you can learn French at your own pace.
+                        <strong>Hi! French</strong> is an online platform where you can learn French at your own pace.
                         We offer one-on-one courses, group courses, podcasts, and speaking clubs to practice your French in a fully immersive way.
                     </p>
                 </div>
@@ -109,7 +132,7 @@
             </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:no-underline">Hi-French™</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="#" class="hover:no-underline">Hi! French™</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

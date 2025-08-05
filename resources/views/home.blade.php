@@ -35,7 +35,7 @@
                         It's Your Journey to <strong class="primary">Speaking French</strong>
                     </h1>
                     <p class="mb-6 font-light text-gray-500 md:text-lg">
-                        At <strong>Hi-French</strong>, learning is more than memorizing rules, it’s about building confidence, one conversation at a time. No matter where you start, our step-by-step programs walk with you through vocabulary, grammar, culture, and real-world use.
+                        At <strong>Hi! French</strong>, learning is more than memorizing rules, it’s about building confidence, one conversation at a time. No matter where you start, our step-by-step programs walk with you through vocabulary, grammar, culture, and real-world use.
                         We blend traditional lessons with immersion, so you’re not just learning French, you’re living it.
                     </p>
 
@@ -77,7 +77,7 @@
                         Learning French Has Never <strong class="primary">Been This Easy</strong>
                     </h1>
                     <p class="mb-6 font-light text-gray-500 md:text-lg">
-                        At <strong>Hi-French</strong>, we believe language learning should feel natural, not overwhelming.
+                        At <strong>Hi! French</strong>, we believe language learning should feel natural, not overwhelming.
                         That’s why we’ve broken the journey into four simple, clear steps designed to help you build confidence and see real progress from day one.
                     </p>
 
