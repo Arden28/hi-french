@@ -22,11 +22,12 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
+        User::create([
             'name' => 'Eduard Ebankoli',
             'email' => 'eduardo.enbakoli@hi-french.club',
             'password' => Hash::make('koverae'),
-            'email_verified_at' => now()
+            'email_verified_at' => now(),
+            'remember_token' => Str::random(10),
         ]);
 
         // Blog Categories
