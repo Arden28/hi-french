@@ -191,7 +191,7 @@
                                 <span class="">Login</span>
                             </a>
                             <a href="{{ route('register') }}" class="text-md w-[200px] px-2 text-white p-1 font-semibold bg-blue-600 rounded-md md:me-0 focus:ring-4 focus:ring-gray-300">
-                                <span class="">Join n</span>
+                                <span class="">Join Now</span>
                             </a>
                         </div>
                         @endauth
@@ -200,23 +200,23 @@
         </div>
             <!-- Dropdown Content -->
             <div id="mega-menu-full-dropdown"
-                class="hidden mt-1 bg-white border-gray-200 shadow-xs bg-gray-50 border-y">
+                class="hidden mt-1 border-gray-200 shadow-xs bg-gray-50 border-y">
                 <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 sm:grid-cols-2 md:px-6">
                     <ul>
                         <li>
-                            <a href="#" class="block p-3 rounded-lg hover:bg-gray-100">
+                            <a href="{{ route('course.index') }}" class="block p-3 rounded-lg hover:bg-gray-100">
                                 <div class="font-semibold">Self-paced Course</div>
                                 <span class="text-sm text-gray-500">Connect with third-party tools that you're already using.</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="block p-3 rounded-lg hover:bg-gray-100">
+                            <a href="{{ route('course.index') }}" class="block p-3 rounded-lg hover:bg-gray-100">
                                 <div class="font-semibold">Private Lessons</div>
                                 <span class="text-sm text-gray-500">Connect with third-party tools that you're already using.</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="block p-3 rounded-lg hover:bg-gray-100">
+                            <a href="{{ route('course.index') }}" class="block p-3 rounded-lg hover:bg-gray-100">
                                 <div class="font-semibold">Group Lessons</div>
                                 <span class="text-sm text-gray-500">Connect with third-party tools that you're already using.</span>
                             </a>
