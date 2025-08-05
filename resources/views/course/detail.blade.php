@@ -5,7 +5,7 @@
 @section('content')
 
 
-    <section class="pt-6 pb-16 bg-white dark:bg-gray-900">
+    <section class="pt-6 pb-16 bg-white">
     <div class="max-w-screen-xl px-4 mx-auto md:px-8">
 
         <!-- Breadcrumb -->
@@ -238,7 +238,7 @@
     </section>
 
     <!-- Sticky Bottom Bar for Mobile -->
-    <div class="fixed inset-x-0 bottom-0 z-50 flex items-center justify-between px-4 py-5 bg-white border-t border-gray-200 shadow-md dark:bg-gray-900 dark:border-gray-700 lg:hidden">
+    <div class="fixed inset-x-0 bottom-0 z-50 flex items-center justify-between px-4 py-5 bg-white border-t border-gray-200 shadow-md lg:hidden">
         <!-- Price -->
         <div class="mb-3 space-y-1">
             <!-- Current Price -->
